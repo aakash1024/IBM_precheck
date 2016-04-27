@@ -1,4 +1,4 @@
-class iis_install {
+class ibm_precheck::iis_install {
   windowsfeature { 'IIS':
     feature_name => [
       'Web-Server',

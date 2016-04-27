@@ -1,4 +1,4 @@
-class net_35 {
+class ibm_precheck::net_35 {
   windowsfeature { 'Net-Framework-Core':
     ensure  => 'present',
     restart => false,
