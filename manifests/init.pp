@@ -5,5 +5,5 @@ class IBM_precheck {
   include IBM_precheck::net_35
   include IBM_precheck::net_45
   include IBM_precheck::msmq
-
+  # init.pp
 }
