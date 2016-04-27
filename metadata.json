@@ -1,5 +1,5 @@
 {
-  "name": "IBM_precheck",
+  "name": "ibm_precheck",
   "version": "0.1.0",
   "author": "test",
   "summary": "IBM_precheck",
@@ -8,9 +8,8 @@
   "source": "https://github.com/aakash1024/IBM_precheck",
   "project_page": "https://github.com/aakash1024/IBM_precheck/README.md",
     "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
     { "name": "puppetlabs/powershell", "version_requirement": ">= 1.0.6" },
     { "name": "puppet/windowsfeature", "version_requirement": ">= 1.1.0" },
-    }
-  ]
+  ],
 }
